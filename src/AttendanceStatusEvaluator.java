@@ -8,7 +8,7 @@ class AttendanceStatusEvaluator(){
       System.out.println("Poor");
     }else if((attendance>=60) && (attendance<=85)){
       System.out.println("Satisfactory");
-    }else if((attendance>85)&&(attendance<=100)){
+    }else if(attendance>85){
       System.out.println("Excellent");
     }else{
       System.out.println("Enter positive integer");
